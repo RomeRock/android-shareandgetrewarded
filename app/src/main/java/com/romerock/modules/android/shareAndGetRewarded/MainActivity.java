@@ -81,7 +81,8 @@ public class MainActivity extends AppCompatActivity {
         view.loadData(getString(R.string.thank_you), "text/html; charset=utf-8", "utf-8");
         font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Thin.ttf");
         txtActive.setTypeface(font);
-
+        font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
+        txtRestore.setTypeface(font);
     }
 
     public void popUp() {
@@ -112,8 +113,6 @@ public class MainActivity extends AppCompatActivity {
                 onShared(1);
             }
         });
-
-
         TextView txtTittleShare = (TextView) view.findViewById(R.id.txtTittleShare);
         TextView txtContentShare = (TextView) view.findViewById(R.id.txtContentShare);
         font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
