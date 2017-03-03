@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="buttonStyleMain" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:width">80sp</item>
+        <item name="android:textSize">@dimen/boton_text_size</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="currencyLanguage" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#343434</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/language_text_size</item>
+        <item name="android:background">@color/centerDetect</item>
+    </style>
+
+    <style name="textLanguage" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">#17B0EF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="paddingsContainer">
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="tittleSettings">
+        <item name="android:padding">@dimen/tittle_settings</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tittle_settings</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tittleSettingsSymbol">
+        <item name="android:paddingTop">@dimen/tittle_settings_symbol</item>
+        <item name="android:paddingBottom">@dimen/tittle_settings_symbol</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tittle_settings</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="pop_up_full_tittle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">@dimen/min_margin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="pop_up_full_content">
+        <item name="android:paddingTop">@dimen/language_height</item>
+        <item name="android:paddingBottom">@dimen/tittle_settings</item>
+        <item name="android:layout_weight">0.04</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:text">@string/pop_up_get_share_content</item>
+        <item name="android:textColor">@color/setting_text_color_list</item>
+    </style>
+
+    <style name="shareText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_margin">@dimen/min_margin</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="pop_up_change">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/border_boton</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="pop_up_full_share_facebook">
+        <item name="android:textSize">@dimen/pop_up_full_content</item>
+        <item name="android:layout_marginBottom">@dimen/pop_up_full_boton_margin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/shareFacebook</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="pop_up_full_share_twitter">
+        <item name="android:textSize">@dimen/pop_up_full_content</item>
+        <item name="android:layout_marginBottom">@dimen/pop_up_full_boton_margin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/shareTwitter</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="pop_up_full_boton3">
+        <item name="android:textSize">@dimen/pop_up_full_content</item>
+        <item name="android:layout_margin">@dimen/pop_up_full_boton_margin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="pop_up_full_boton2">
+        <item name="android:textSize">@dimen/pop_up_full_content</item>
+        <item name="android:layout_marginBottom">@dimen/pop_up_full_boton_margin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/border_boton</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="text_restore">
+         <item name="android:layout_marginTop">22dp</item>
+         <item name="android:gravity">left</item>
+         <item name="android:textColor">@color/restore_off</item>
+         <item name="android:textStyle">bold</item>
+         <item name="android:paddingRight">5sp</item>
+    </style>
+</resources>

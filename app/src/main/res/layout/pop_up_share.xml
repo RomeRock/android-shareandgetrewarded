@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/min_margin"
+    android:orientation="vertical"
+    android:padding="@dimen/pop_up_padding"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtTittleShare"
+        android:paddingTop="@dimen/tittle_settings"
+        style="@style/pop_up_full_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_up_get_share_tittle"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtContentShare"
+        style="@style/pop_up_full_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_up_get_share_content" />
+
+
+    <Button
+        android:id="@+id/popUpShareFacebook"
+        style="@style/pop_up_full_share_facebook"
+        android:layout_marginTop="@dimen/language_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:text="@string/pop_up_get_share_on_facebook"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/popUpShareTwitter"
+        style="@style/pop_up_full_share_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:text="@string/pop_up_get_share_on_twitter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/popUpNoShare"
+        style="@style/pop_up_full_boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:text="@string/pop_up_get_full_boton3"
+        android:textAllCaps="false" />
+
+</LinearLayout>

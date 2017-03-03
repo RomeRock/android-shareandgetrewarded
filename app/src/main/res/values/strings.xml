@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MM: Share &amp; Get Rewarded</string>
+    <string name="romerock">Rome Rock</string>
+    <string name="romerock_site">http://www.romerock.com</string>
+    <string name="thank_you">
+        <![CDATA[
+            <style>
+                .text{
+                    font-size:14px;
+                    color:#FFFFFF;
+                    line-height:20px;
+                }
+            </style>
+            <div align=justify class="text">Thank you for downloading our Mini Module! Follow us on GitHub for more cool Mini Modules that will help you to make an awesome app a lot easier.</div>
+        ]]></string>
+    <string name="tittle_header">Mini Module: Share &amp; Get Rewarded</string>
+    <string name="follow_us_twitter">https://twitter.com/RomeRock_Apps</string>
+    <string name="follow_us_twitter_profile">twitter://user?screen_name=RomeRock_Apps</string>
+    <string name="follow_us_facebook">https://www.facebook.com/RomeRock-App-Studio-337180269970605</string>
+    <string name="follow_us_facebook_profile">fb://page/337180269970605</string>
+    <string name="follow_us_git_hub">https://github.com/RomeRock</string>
+    <string name="romerock_page">http://romerock.com</string>
+    <string name="tittleMM">\tfull version is:\t</string>
+    <string name="preferences_name">MM_ROMEROCK</string>
+    <string name="preferences_full">fullVersionActive</string>
+    <string name="preferences_shared_facebook">sharedFacebook</string>
+    <string name="preferences_shared_twitter">sharedTwitter</string>
+    <string name="popup_content_tittle">Rate this app</string>
+    <string name="select_share">Share and get rewarded</string>
+    <string name="shareOnFace">Shared on Facebook</string>
+    <string name="shareOnTwitter">Shared on Twitter</string>
+    <string name="pop_up_get_share_on_facebook">Share on Facebook</string>
+    <string name="pop_up_get_share_on_twitter">Share on Twitter</string>
+    <string name="pop_up_get_full_boton3">No, thanks</string>
+    <string name="pop_up_get_share_tittle">Thank you for sharing!</string>
+    <string name="pop_up_get_share_content">Tell your friends about us and get the Full Version totally FREE!</string>
+    <string name="active_full_off">OFF</string>
+    <string name="active_full_on">ON</string>
+    <string name="restore">Restore</string>
+</resources>
